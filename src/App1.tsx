@@ -3,12 +3,13 @@ import { useAccount } from 'wagmi'
 
 import { Account } from './components'
 
-export function App() {
+export function App1() {
   const { isConnected } = useAccount()
 
+  console.log('App1')
   return (
     <>
-      <h1>wagmia + Web3Modal + Vite</h1>
+      <h1>wagmi111 + Web3Modal + Vite</h1>
 
       <Web3Button />
 
